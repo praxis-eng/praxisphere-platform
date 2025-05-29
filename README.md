@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Overview:
+Praxisphere is an AI-driven platform that correlates physical and emotional health data to provide personalized EQ and wellbeing insights. 
+This repository contains 
+- Marketing Website built to promote the product and brand.
+- Brand Book built to serves as the comprehensive guide to Praxisphere's brand philosophy, values, visual identity, and decision frameworks.
 
-## Getting Started
+## 🎯 Purpose
+- **Lead Generation:** Capture potential customers through Zoho-integrated forms.
+- **Brand Awareness:** Establish Praxisphere as a thought leader in EQ-health correlation.
+- **Market Education:** Educate audiences about the connection between emotional intelligence and physical health.
+- **Beta Program:** Recruit early adopters for MVP testing.
 
-First, run the development server:
+## 🛠 Tech Stack
+- **Frontend:** Next.js 14+ with TypeScript
+- **Styling:** Tailwind CSS
+- **CMS:** Strapi (Headless CMS)
+- **Database:** Postgresql 14+
+- **Deployment:** Private server
+- **Brand Book Framework:** Fumadocs
+- **Forms:** Zoho CRM integration
+- **Surveys:** Zoho Survey integration
+- **Analytics:** Google Analytics
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔧 Key Integrations
+###### Zoho Integration
+- **Lead Forms:** Contact forms, demo requests, beta signups
+- **Surveys:** Market research, product feedback, user insights
+- **CRM:** Lead management and qualification
+- **Campaigns:** Newsletter management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+###### Content Strategy
+- **SEO Blog Content:** Research-driven articles on EQ-health correlation
+- **Lead Magnets:** White papers, assessment previews, wellness templates
+- **Social Proof:** Research citations, industry statistics, beta testimonials
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
+###### Prerequisites
+- Node.js 18+
+- Postgresql 14+
+- Strapi account
+- Zoho CRM/Survey accounts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+###### Installation
+    # Clone the repository
+    git clone [repository-url]
+    cd praxisphere-platform
+    
+    # Install dependencies
+    pnpm install
+    
+    # Set up environment variables
+    cp .env.example .env.local
+    
+    # Fill in your database, Strapi, and Zoho credentials
+    
+    # Run database migrations
+    pnpm run db:migrate
+    
+    # Start development server
+    pnpm run dev
 
-## Learn More
+	# Environment Variables
+    DATABASE_URL=
+    STRAPI_API_URL=
+    STRAPI_API_TOKEN=
+    ZOHO_CLIENT_ID=
+    ZOHO_CLIENT_SECRET=
+    NEXT_PUBLIC_SITE_URL=
 
-To learn more about Next.js, take a look at the following resources:
+##  📝 Content Management
+###### Blog Content Strategy
+- Weekly research articles on EQ-health correlation
+- Industry trend analysis
+- Case studies and success stories
+- SEO-optimized content for organic growth
+- Lead Generation Strategy
+- Multiple conversion points throughout site
+- Progressive profiling through forms
+- Content upgrades and gated resources
+- Beta program recruitment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design System
+- Built with Tailwind CSS following these principles:
+- Mobile-first: Responsive design for all devices
+- Accessibility: WCAG 2.1 AA compliance
+- Performance: Optimized images and lazy loading
+- SEO: Semantic HTML and meta optimization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📊 Analytics & Tracking
+- Conversion tracking for lead forms
+- Blog engagement metrics
+- User journey analysis
+- A/B testing for key pages
 
-## Deploy on Vercel
+## 🔒 Compliance & Security
+- **DPDPA Compliance:** Indian data protection regulations
+- **Privacy Policy:** Transparent data usage
+- **Security:** HTTPS, secure form handling
+- **Cookie Consent:** GDPR-compliant cookie management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚦 Deployment
+###### Development
+    npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+###### Build
+    npm run build
+    npm run start
+
+## 📈 Success Metrics
+###### Primary KPIs
+- Lead generation rate
+- Beta program signups
+- Blog traffic growth
+- Conversion funnel performance
+
+###### Secondary Metrics
+- Time on site
+- Bounce rate
+- Social shares
+- Email signup rate
+
+## 🤝 Contributing
+- Fork the repository
+- Create a feature branch
+- Make your changes
+- Test thoroughly
+- Submit a pull request
+
+## 📞 Support
+- **Contact:** support@praxisphere.io
+- **Maintained by:** Praxisphere Engineering Team
