@@ -1,0 +1,21 @@
+name: praxisphere-platform
+id: 'ari:cloud:compass:15078f80-aef0-44c2-949a-c4dadde32c3f:component/ce639b91-cba4-4844-a6a7-9c92fafe027a/759bd64d-96b1-4281-9fef-e939dadc34df'
+slug: praxisphere-platform
+description: praxisphere-platform
+configVersion: 1
+typeId: SERVICE
+ownerId: 'ari:cloud:identity::team/8613f228-d41b-4e9b-9506-1c3543783614'
+fields:
+  tier: 4
+  isMonorepoProject: false
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/praxis-eng/praxisphere-platform'
+relationships: {}
+labels:
+  - 'source:github'
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
