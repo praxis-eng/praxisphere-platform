@@ -57,6 +57,12 @@ jobs:
         with:
           version: 8 # Or your project's pnpm version
 
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin' # Or any other distribution
+
       - name: Install dependencies
         run: pnpm install
 
